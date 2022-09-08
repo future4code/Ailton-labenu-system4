@@ -1,0 +1,682 @@
+0 verbose cli D:\Program Files\nodejs\node.exe C:\Users\CarlosS\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.14.0
+2 info using node@v14.17.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Users\CarlosS\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 9ms
+6 timing config:load:builtin Completed in 9ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\CarlosS\Desktop\AtividadeTeste\Ailton-labenu-system4\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\CarlosS\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\CarlosS\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 25ms
+19 timing npm:load:configload Completed in 25ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm i ts-node-dev
+23 verbose argv "i" "ts-node-dev" "--save-dev"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing config:load:flatten Completed in 5ms
+26 timing npm:load:display Completed in 7ms
+27 verbose logfile logs-max:10 dir:C:\Users\CarlosS\Desktop\AtividadeTeste\Ailton-labenu-system4\tmpnodejsnpm-cache\_logs
+28 verbose logfile C:\Users\CarlosS\Desktop\AtividadeTeste\Ailton-labenu-system4\tmpnodejsnpm-cache\_logs\2022-09-08T16_09_23_764Z-debug-0.log
+29 timing npm:load:logFile Completed in 11ms
+30 timing npm:load:timers Completed in 1ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 49ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing arborist:ctor Completed in 0ms
+36 timing idealTree:init Completed in 21ms
+37 timing idealTree:userRequests Completed in 17ms
+38 silly idealTree buildDeps
+39 silly fetch manifest ts-node-dev@*
+40 http fetch GET 200 https://registry.npmjs.org/ts-node-dev 210ms (cache miss)
+41 silly fetch manifest node-notifier@*
+42 http fetch GET 200 https://registry.npmjs.org/node-notifier 75ms (cache miss)
+43 silly fetch manifest typescript@*
+44 http fetch GET 200 https://registry.npmjs.org/typescript 616ms (cache miss)
+45 silly placeDep ROOT ts-node-dev@2.0.0 OK for: ailton-labenu-system4@1.0.0 want: *
+46 silly placeDep ROOT typescript@4.8.2 OK for: ts-node-dev@2.0.0 want: *
+47 silly fetch manifest chokidar@^3.5.1
+48 silly fetch manifest dynamic-dedupe@^0.3.0
+49 silly fetch manifest minimist@^1.2.6
+50 silly fetch manifest mkdirp@^1.0.4
+51 silly fetch manifest resolve@^1.0.0
+52 silly fetch manifest rimraf@^2.6.1
+53 silly fetch manifest source-map-support@^0.5.12
+54 silly fetch manifest tree-kill@^1.2.2
+55 silly fetch manifest ts-node@^10.4.0
+56 silly fetch manifest tsconfig@^7.0.0
+57 http fetch GET 200 https://registry.npmjs.org/chokidar 124ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/minimist 207ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/mkdirp 207ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/source-map-support 204ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/resolve 210ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/rimraf 222ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/tree-kill 224ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/ts-node 477ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/dynamic-dedupe 532ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/tsconfig 1083ms (cache miss)
+67 timing idealTree:#root Completed in 2152ms
+68 silly fetch manifest @swc/core@>=1.2.50
+69 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore 514ms (cache miss)
+70 silly fetch manifest @swc/wasm@>=1.2.50
+71 http fetch GET 200 https://registry.npmjs.org/@swc%2fwasm 383ms (cache miss)
+72 silly fetch manifest @types/node@*
+73 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 238ms (cache miss)
+74 silly placeDep ROOT chokidar@3.5.3 OK for: ts-node-dev@2.0.0 want: ^3.5.1
+75 silly placeDep ROOT dynamic-dedupe@0.3.0 OK for: ts-node-dev@2.0.0 want: ^0.3.0
+76 silly placeDep ROOT minimist@1.2.6 OK for: ts-node-dev@2.0.0 want: ^1.2.6
+77 silly placeDep ROOT mkdirp@1.0.4 OK for: ts-node-dev@2.0.0 want: ^1.0.4
+78 silly placeDep ROOT resolve@1.22.1 OK for: ts-node-dev@2.0.0 want: ^1.0.0
+79 silly placeDep ROOT rimraf@2.7.1 OK for: ts-node-dev@2.0.0 want: ^2.6.1
+80 silly placeDep ROOT source-map-support@0.5.21 OK for: ts-node-dev@2.0.0 want: ^0.5.12
+81 silly placeDep ROOT tree-kill@1.2.2 OK for: ts-node-dev@2.0.0 want: ^1.2.2
+82 silly placeDep ROOT ts-node@10.9.1 OK for: ts-node-dev@2.0.0 want: ^10.4.0
+83 silly placeDep ROOT @types/node@18.7.16 OK for: ts-node@10.9.1 want: *
+84 silly placeDep ROOT tsconfig@7.0.0 OK for: ts-node-dev@2.0.0 want: ^7.0.0
+85 silly fetch manifest anymatch@~3.1.2
+86 silly fetch manifest braces@~3.0.2
+87 silly fetch manifest glob-parent@~5.1.2
+88 silly fetch manifest is-binary-path@~2.1.0
+89 silly fetch manifest is-glob@~4.0.1
+90 silly fetch manifest normalize-path@~3.0.0
+91 silly fetch manifest readdirp@~3.6.0
+92 silly fetch manifest fsevents@~2.3.2
+93 silly fetch manifest xtend@^4.0.0
+94 silly fetch manifest is-core-module@^2.9.0
+95 silly fetch manifest path-parse@^1.0.7
+96 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+97 silly fetch manifest glob@^7.1.3
+98 silly fetch manifest buffer-from@^1.0.0
+99 silly fetch manifest source-map@^0.6.0
+100 silly fetch manifest @cspotcode/source-map-support@^0.8.0
+101 silly fetch manifest @tsconfig/node10@^1.0.7
+102 silly fetch manifest @tsconfig/node12@^1.0.7
+103 silly fetch manifest @tsconfig/node14@^1.0.0
+104 silly fetch manifest @tsconfig/node16@^1.0.2
+105 silly fetch manifest acorn@^8.4.1
+106 silly fetch manifest acorn-walk@^8.1.1
+107 silly fetch manifest arg@^4.1.0
+108 silly fetch manifest create-require@^1.1.0
+109 silly fetch manifest diff@^4.0.1
+110 silly fetch manifest make-error@^1.1.1
+111 silly fetch manifest v8-compile-cache-lib@^3.0.1
+112 silly fetch manifest yn@3.1.1
+113 silly fetch manifest @types/strip-bom@^3.0.0
+114 silly fetch manifest @types/strip-json-comments@0.0.30
+115 silly fetch manifest strip-bom@^3.0.0
+116 silly fetch manifest strip-json-comments@^2.0.0
+117 http fetch GET 200 https://registry.npmjs.org/anymatch 187ms (cache miss)
+118 http fetch GET 200 https://registry.npmjs.org/is-core-module 171ms (cache miss)
+119 http fetch GET 200 https://registry.npmjs.org/is-binary-path 185ms (cache miss)
+120 http fetch GET 200 https://registry.npmjs.org/is-glob 183ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/fsevents 183ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/xtend 228ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/glob-parent 239ms (cache miss)
+124 http fetch GET 200 https://registry.npmjs.org/normalize-path 342ms (cache miss)
+125 http fetch GET 200 https://registry.npmjs.org/buffer-from 332ms (cache miss)
+126 http fetch GET 200 https://registry.npmjs.org/readdirp 346ms (cache miss)
+127 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag 343ms (cache miss)
+128 http fetch GET 200 https://registry.npmjs.org/acorn-walk 376ms (cache miss)
+129 http fetch GET 200 https://registry.npmjs.org/path-parse 422ms (cache miss)
+130 http fetch GET 200 https://registry.npmjs.org/yn 389ms (cache miss)
+131 http fetch GET 200 https://registry.npmjs.org/braces 463ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/make-error 416ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/diff 422ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/create-require 433ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/source-map 463ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/arg 466ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 453ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/@cspotcode%2fsource-map-support 507ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/acorn 506ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/glob 522ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/strip-bom 486ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode14 526ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode10 533ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode12 531ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode16 532ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/v8-compile-cache-lib 867ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/@types%2fstrip-json-comments 1442ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/@types%2fstrip-bom 1980ms (cache miss)
+149 timing idealTree:node_modules/ts-node-dev Completed in 3270ms
+150 timing idealTree:node_modules/@types/node Completed in 0ms
+151 silly placeDep ROOT anymatch@3.1.2 OK for: chokidar@3.5.3 want: ~3.1.2
+152 silly placeDep ROOT braces@3.0.2 OK for: chokidar@3.5.3 want: ~3.0.2
+153 silly placeDep ROOT fsevents@2.3.2 OK for: chokidar@3.5.3 want: ~2.3.2
+154 silly placeDep ROOT glob-parent@5.1.2 OK for: chokidar@3.5.3 want: ~5.1.2
+155 silly placeDep ROOT is-binary-path@2.1.0 OK for: chokidar@3.5.3 want: ~2.1.0
+156 silly placeDep ROOT is-glob@4.0.3 OK for: chokidar@3.5.3 want: ~4.0.1
+157 silly placeDep ROOT normalize-path@3.0.0 OK for: chokidar@3.5.3 want: ~3.0.0
+158 silly placeDep ROOT readdirp@3.6.0 OK for: chokidar@3.5.3 want: ~3.6.0
+159 silly fetch manifest picomatch@^2.0.4
+160 silly fetch manifest fill-range@^7.0.1
+161 silly fetch manifest binary-extensions@^2.0.0
+162 silly fetch manifest is-extglob@^2.1.1
+163 silly fetch manifest picomatch@^2.2.1
+164 http fetch GET 200 https://registry.npmjs.org/is-extglob 87ms (cache miss)
+165 http fetch GET 200 https://registry.npmjs.org/picomatch 90ms (cache miss)
+166 http fetch GET 200 https://registry.npmjs.org/picomatch 100ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/fill-range 126ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/binary-extensions 131ms (cache miss)
+169 timing idealTree:node_modules/chokidar Completed in 155ms
+170 silly placeDep ROOT picomatch@2.3.1 OK for: anymatch@3.1.2 want: ^2.0.4
+171 timing idealTree:node_modules/anymatch Completed in 3ms
+172 silly placeDep ROOT fill-range@7.0.1 OK for: braces@3.0.2 want: ^7.0.1
+173 silly fetch manifest to-regex-range@^5.0.1
+174 http fetch GET 200 https://registry.npmjs.org/to-regex-range 137ms (cache miss)
+175 timing idealTree:node_modules/braces Completed in 143ms
+176 silly placeDep ROOT xtend@4.0.2 OK for: dynamic-dedupe@0.3.0 want: ^4.0.0
+177 timing idealTree:node_modules/dynamic-dedupe Completed in 2ms
+178 silly placeDep ROOT to-regex-range@5.0.1 OK for: fill-range@7.0.1 want: ^5.0.1
+179 silly fetch manifest is-number@^7.0.0
+180 http fetch GET 200 https://registry.npmjs.org/is-number 128ms (cache miss)
+181 timing idealTree:node_modules/fill-range Completed in 133ms
+182 timing idealTree:node_modules/fsevents Completed in 0ms
+183 timing idealTree:node_modules/glob-parent Completed in 0ms
+184 silly placeDep ROOT binary-extensions@2.2.0 OK for: is-binary-path@2.1.0 want: ^2.0.0
+185 timing idealTree:node_modules/is-binary-path Completed in 5ms
+186 timing idealTree:node_modules/binary-extensions Completed in 0ms
+187 silly placeDep ROOT is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+188 timing idealTree:node_modules/is-glob Completed in 2ms
+189 timing idealTree:node_modules/is-extglob Completed in 0ms
+190 timing idealTree:node_modules/minimist Completed in 0ms
+191 timing idealTree:node_modules/mkdirp Completed in 0ms
+192 timing idealTree:node_modules/normalize-path Completed in 0ms
+193 timing idealTree:node_modules/picomatch Completed in 0ms
+194 timing idealTree:node_modules/readdirp Completed in 0ms
+195 silly placeDep ROOT is-core-module@2.10.0 OK for: resolve@1.22.1 want: ^2.9.0
+196 silly placeDep ROOT path-parse@1.0.7 OK for: resolve@1.22.1 want: ^1.0.7
+197 silly placeDep ROOT supports-preserve-symlinks-flag@1.0.0 OK for: resolve@1.22.1 want: ^1.0.0
+198 silly fetch manifest has@^1.0.3
+199 http fetch GET 200 https://registry.npmjs.org/has 129ms (cache miss)
+200 timing idealTree:node_modules/resolve Completed in 139ms
+201 silly placeDep ROOT has@1.0.3 OK for: is-core-module@2.10.0 want: ^1.0.3
+202 silly fetch manifest function-bind@^1.1.1
+203 http fetch GET 200 https://registry.npmjs.org/function-bind 128ms (cache miss)
+204 timing idealTree:node_modules/is-core-module Completed in 132ms
+205 silly placeDep ROOT function-bind@1.1.1 OK for: has@1.0.3 want: ^1.1.1
+206 timing idealTree:node_modules/has Completed in 2ms
+207 timing idealTree:node_modules/function-bind Completed in 0ms
+208 timing idealTree:node_modules/path-parse Completed in 0ms
+209 silly placeDep ROOT glob@7.2.3 OK for: rimraf@2.7.1 want: ^7.1.3
+210 silly fetch manifest fs.realpath@^1.0.0
+211 silly fetch manifest inflight@^1.0.4
+212 silly fetch manifest inherits@2
+213 silly fetch manifest minimatch@^3.1.1
+214 silly fetch manifest once@^1.3.0
+215 silly fetch manifest path-is-absolute@^1.0.0
+216 http fetch GET 200 https://registry.npmjs.org/inherits 61ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/inflight 77ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/minimatch 81ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/once 84ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 100ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/fs.realpath 163ms (cache miss)
+222 timing idealTree:node_modules/rimraf Completed in 167ms
+223 silly placeDep ROOT fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+224 silly placeDep ROOT inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+225 silly placeDep ROOT inherits@2.0.4 OK for: glob@7.2.3 want: 2
+226 silly placeDep ROOT minimatch@3.1.2 OK for: glob@7.2.3 want: ^3.1.1
+227 silly placeDep ROOT once@1.4.0 OK for: glob@7.2.3 want: ^1.3.0
+228 silly placeDep ROOT path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+229 silly fetch manifest wrappy@1
+230 silly fetch manifest brace-expansion@^1.1.7
+231 http fetch GET 200 https://registry.npmjs.org/brace-expansion 66ms (cache miss)
+232 http fetch GET 200 https://registry.npmjs.org/wrappy 121ms (cache miss)
+233 timing idealTree:node_modules/glob Completed in 133ms
+234 timing idealTree:node_modules/fs.realpath Completed in 0ms
+235 silly placeDep ROOT wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+236 timing idealTree:node_modules/inflight Completed in 2ms
+237 timing idealTree:node_modules/inherits Completed in 0ms
+238 silly placeDep ROOT brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+239 silly fetch manifest balanced-match@^1.0.0
+240 silly fetch manifest concat-map@0.0.1
+241 http fetch GET 200 https://registry.npmjs.org/concat-map 53ms (cache miss)
+242 http fetch GET 200 https://registry.npmjs.org/balanced-match 135ms (cache miss)
+243 timing idealTree:node_modules/minimatch Completed in 140ms
+244 silly placeDep ROOT balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+245 silly placeDep ROOT concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+246 timing idealTree:node_modules/brace-expansion Completed in 4ms
+247 timing idealTree:node_modules/balanced-match Completed in 0ms
+248 timing idealTree:node_modules/concat-map Completed in 0ms
+249 timing idealTree:node_modules/once Completed in 0ms
+250 timing idealTree:node_modules/path-is-absolute Completed in 0ms
+251 silly placeDep ROOT buffer-from@1.1.2 OK for: source-map-support@0.5.21 want: ^1.0.0
+252 silly placeDep ROOT source-map@0.6.1 OK for: source-map-support@0.5.21 want: ^0.6.0
+253 timing idealTree:node_modules/source-map-support Completed in 4ms
+254 timing idealTree:node_modules/buffer-from Completed in 0ms
+255 timing idealTree:node_modules/source-map Completed in 0ms
+256 timing idealTree:node_modules/supports-preserve-symlinks-flag Completed in 0ms
+257 silly placeDep ROOT is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+258 timing idealTree:node_modules/to-regex-range Completed in 1ms
+259 timing idealTree:node_modules/is-number Completed in 0ms
+260 timing idealTree:node_modules/tree-kill Completed in 0ms
+261 silly placeDep ROOT @cspotcode/source-map-support@0.8.1 OK for: ts-node@10.9.1 want: ^0.8.0
+262 silly placeDep ROOT @tsconfig/node10@1.0.9 OK for: ts-node@10.9.1 want: ^1.0.7
+263 silly placeDep ROOT @tsconfig/node12@1.0.11 OK for: ts-node@10.9.1 want: ^1.0.7
+264 silly placeDep ROOT @tsconfig/node14@1.0.3 OK for: ts-node@10.9.1 want: ^1.0.0
+265 silly placeDep ROOT @tsconfig/node16@1.0.3 OK for: ts-node@10.9.1 want: ^1.0.2
+266 silly placeDep ROOT acorn@8.8.0 OK for: ts-node@10.9.1 want: ^8.4.1
+267 silly placeDep ROOT acorn-walk@8.2.0 OK for: ts-node@10.9.1 want: ^8.1.1
+268 silly placeDep ROOT arg@4.1.3 OK for: ts-node@10.9.1 want: ^4.1.0
+269 silly placeDep ROOT create-require@1.1.1 OK for: ts-node@10.9.1 want: ^1.1.0
+270 silly placeDep ROOT diff@4.0.2 OK for: ts-node@10.9.1 want: ^4.0.1
+271 silly placeDep ROOT make-error@1.3.6 OK for: ts-node@10.9.1 want: ^1.1.1
+272 silly placeDep ROOT v8-compile-cache-lib@3.0.1 OK for: ts-node@10.9.1 want: ^3.0.1
+273 silly placeDep ROOT yn@3.1.1 OK for: ts-node@10.9.1 want: 3.1.1
+274 silly fetch manifest @jridgewell/trace-mapping@0.3.9
+275 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 169ms (cache miss)
+276 timing idealTree:node_modules/ts-node Completed in 206ms
+277 silly placeDep ROOT @jridgewell/trace-mapping@0.3.9 OK for: @cspotcode/source-map-support@0.8.1 want: 0.3.9
+278 silly fetch manifest @jridgewell/resolve-uri@^3.0.3
+279 silly fetch manifest @jridgewell/sourcemap-codec@^1.4.10
+280 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 83ms (cache miss)
+281 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fresolve-uri 166ms (cache miss)
+282 timing idealTree:node_modules/@cspotcode/source-map-support Completed in 171ms
+283 silly placeDep ROOT @jridgewell/resolve-uri@3.1.0 OK for: @jridgewell/trace-mapping@0.3.9 want: ^3.0.3
+284 silly placeDep ROOT @jridgewell/sourcemap-codec@1.4.14 OK for: @jridgewell/trace-mapping@0.3.9 want: ^1.4.10
+285 timing idealTree:node_modules/@jridgewell/trace-mapping Completed in 3ms
+286 timing idealTree:node_modules/@jridgewell/resolve-uri Completed in 0ms
+287 timing idealTree:node_modules/@jridgewell/sourcemap-codec Completed in 0ms
+288 timing idealTree:node_modules/@tsconfig/node10 Completed in 0ms
+289 timing idealTree:node_modules/@tsconfig/node12 Completed in 0ms
+290 timing idealTree:node_modules/@tsconfig/node14 Completed in 0ms
+291 timing idealTree:node_modules/@tsconfig/node16 Completed in 0ms
+292 timing idealTree:node_modules/acorn Completed in 0ms
+293 timing idealTree:node_modules/acorn-walk Completed in 0ms
+294 timing idealTree:node_modules/arg Completed in 0ms
+295 timing idealTree:node_modules/create-require Completed in 0ms
+296 timing idealTree:node_modules/diff Completed in 0ms
+297 timing idealTree:node_modules/make-error Completed in 0ms
+298 silly placeDep ROOT @types/strip-bom@3.0.0 OK for: tsconfig@7.0.0 want: ^3.0.0
+299 silly placeDep ROOT @types/strip-json-comments@0.0.30 OK for: tsconfig@7.0.0 want: 0.0.30
+300 silly placeDep ROOT strip-bom@3.0.0 OK for: tsconfig@7.0.0 want: ^3.0.0
+301 silly placeDep ROOT strip-json-comments@2.0.1 OK for: tsconfig@7.0.0 want: ^2.0.0
+302 timing idealTree:node_modules/tsconfig Completed in 7ms
+303 timing idealTree:node_modules/@types/strip-bom Completed in 0ms
+304 timing idealTree:node_modules/@types/strip-json-comments Completed in 0ms
+305 timing idealTree:node_modules/strip-bom Completed in 0ms
+306 timing idealTree:node_modules/strip-json-comments Completed in 0ms
+307 timing idealTree:node_modules/typescript Completed in 0ms
+308 timing idealTree:node_modules/v8-compile-cache-lib Completed in 0ms
+309 timing idealTree:node_modules/wrappy Completed in 0ms
+310 timing idealTree:node_modules/xtend Completed in 0ms
+311 timing idealTree:node_modules/yn Completed in 0ms
+312 timing idealTree:buildDeps Completed in 6987ms
+313 timing idealTree:fixDepFlags Completed in 2ms
+314 timing idealTree Completed in 7029ms
+315 timing reify:loadTrees Completed in 7031ms
+316 timing reify:diffTrees Completed in 3ms
+317 silly reify moves {}
+318 timing reify:retireShallow Completed in 3ms
+319 timing reify:createSparse Completed in 48ms
+320 timing reify:loadBundles Completed in 0ms
+321 silly audit bulk request {
+321 silly audit   'ts-node-dev': [ '2.0.0' ],
+321 silly audit   typescript: [ '4.8.2' ],
+321 silly audit   chokidar: [ '3.5.3' ],
+321 silly audit   'dynamic-dedupe': [ '0.3.0' ],
+321 silly audit   minimist: [ '1.2.6' ],
+321 silly audit   mkdirp: [ '1.0.4' ],
+321 silly audit   resolve: [ '1.22.1' ],
+321 silly audit   rimraf: [ '2.7.1' ],
+321 silly audit   'source-map-support': [ '0.5.21' ],
+321 silly audit   'tree-kill': [ '1.2.2' ],
+321 silly audit   'ts-node': [ '10.9.1' ],
+321 silly audit   '@types/node': [ '18.7.16' ],
+321 silly audit   tsconfig: [ '7.0.0' ],
+321 silly audit   anymatch: [ '3.1.2' ],
+321 silly audit   braces: [ '3.0.2' ],
+321 silly audit   fsevents: [ '2.3.2' ],
+321 silly audit   'glob-parent': [ '5.1.2' ],
+321 silly audit   'is-binary-path': [ '2.1.0' ],
+321 silly audit   'is-glob': [ '4.0.3' ],
+321 silly audit   'normalize-path': [ '3.0.0' ],
+321 silly audit   readdirp: [ '3.6.0' ],
+321 silly audit   picomatch: [ '2.3.1' ],
+321 silly audit   'fill-range': [ '7.0.1' ],
+321 silly audit   xtend: [ '4.0.2' ],
+321 silly audit   'to-regex-range': [ '5.0.1' ],
+321 silly audit   'binary-extensions': [ '2.2.0' ],
+321 silly audit   'is-extglob': [ '2.1.1' ],
+321 silly audit   'is-core-module': [ '2.10.0' ],
+321 silly audit   'path-parse': [ '1.0.7' ],
+321 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+321 silly audit   has: [ '1.0.3' ],
+321 silly audit   'function-bind': [ '1.1.1' ],
+321 silly audit   glob: [ '7.2.3' ],
+321 silly audit   'fs.realpath': [ '1.0.0' ],
+321 silly audit   inflight: [ '1.0.6' ],
+321 silly audit   inherits: [ '2.0.4' ],
+321 silly audit   minimatch: [ '3.1.2' ],
+321 silly audit   once: [ '1.4.0' ],
+321 silly audit   'path-is-absolute': [ '1.0.1' ],
+321 silly audit   wrappy: [ '1.0.2' ],
+321 silly audit   'brace-expansion': [ '1.1.11' ],
+321 silly audit   'balanced-match': [ '1.0.2' ],
+321 silly audit   'concat-map': [ '0.0.1' ],
+321 silly audit   'buffer-from': [ '1.1.2' ],
+321 silly audit   'source-map': [ '0.6.1' ],
+321 silly audit   'is-number': [ '7.0.0' ],
+321 silly audit   '@cspotcode/source-map-support': [ '0.8.1' ],
+321 silly audit   '@tsconfig/node10': [ '1.0.9' ],
+321 silly audit   '@tsconfig/node12': [ '1.0.11' ],
+321 silly audit   '@tsconfig/node14': [ '1.0.3' ],
+321 silly audit   '@tsconfig/node16': [ '1.0.3' ],
+321 silly audit   acorn: [ '8.8.0' ],
+321 silly audit   'acorn-walk': [ '8.2.0' ],
+321 silly audit   arg: [ '4.1.3' ],
+321 silly audit   'create-require': [ '1.1.1' ],
+321 silly audit   diff: [ '4.0.2' ],
+321 silly audit   'make-error': [ '1.3.6' ],
+321 silly audit   'v8-compile-cache-lib': [ '3.0.1' ],
+321 silly audit   yn: [ '3.1.1' ],
+321 silly audit   '@jridgewell/trace-mapping': [ '0.3.9' ],
+321 silly audit   '@jridgewell/resolve-uri': [ '3.1.0' ],
+321 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.14' ],
+321 silly audit   '@types/strip-bom': [ '3.0.0' ],
+321 silly audit   '@types/strip-json-comments': [ '0.0.30' ],
+321 silly audit   'strip-bom': [ '3.0.0' ],
+321 silly audit   'strip-json-comments': [ '2.0.1' ]
+321 silly audit }
+322 verbose reify failed optional dependency C:\Users\CarlosS\Desktop\AtividadeTeste\Ailton-labenu-system4\node_modules\fsevents
+323 silly reify mark deleted [
+323 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\Ailton-labenu-system4\\node_modules\\fsevents'
+323 silly reify ]
+324 timing reifyNode:node_modules/fsevents Completed in 30ms
+325 silly tarball no local data for strip-json-comments@https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz. Extracting by manifest.
+326 silly tarball no local data for strip-bom@https://registry.npmjs.org/strip-bom/-/strip-bom-3.0.0.tgz. Extracting by manifest.
+327 silly tarball no local data for @types/strip-json-comments@https://registry.npmjs.org/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz. Extracting by manifest.
+328 silly tarball no local data for @types/strip-bom@https://registry.npmjs.org/@types/strip-bom/-/strip-bom-3.0.0.tgz. Extracting by manifest.
+329 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz. Extracting by manifest.
+330 silly tarball no local data for @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz. Extracting by manifest.
+331 silly tarball no local data for @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz. Extracting by manifest.
+332 silly tarball no local data for yn@https://registry.npmjs.org/yn/-/yn-3.1.1.tgz. Extracting by manifest.
+333 silly tarball no local data for v8-compile-cache-lib@https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz. Extracting by manifest.
+334 silly tarball no local data for make-error@https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz. Extracting by manifest.
+335 silly tarball no local data for diff@https://registry.npmjs.org/diff/-/diff-4.0.2.tgz. Extracting by manifest.
+336 silly tarball no local data for create-require@https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz. Extracting by manifest.
+337 silly tarball no local data for arg@https://registry.npmjs.org/arg/-/arg-4.1.3.tgz. Extracting by manifest.
+338 silly tarball no local data for acorn-walk@https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.2.0.tgz. Extracting by manifest.
+339 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-8.8.0.tgz. Extracting by manifest.
+340 silly tarball no local data for @tsconfig/node16@https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.3.tgz. Extracting by manifest.
+341 silly tarball no local data for @tsconfig/node14@https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz. Extracting by manifest.
+342 silly tarball no local data for @tsconfig/node12@https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz. Extracting by manifest.
+343 silly tarball no local data for @tsconfig/node10@https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.9.tgz. Extracting by manifest.
+344 silly tarball no local data for is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz. Extracting by manifest.
+345 silly tarball no local data for @cspotcode/source-map-support@https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz. Extracting by manifest.
+346 silly tarball no local data for source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz. Extracting by manifest.
+347 silly tarball no local data for buffer-from@https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz. Extracting by manifest.
+348 silly tarball no local data for concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz. Extracting by manifest.
+349 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz. Extracting by manifest.
+350 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz. Extracting by manifest.
+351 silly tarball no local data for wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz. Extracting by manifest.
+352 silly tarball no local data for path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz. Extracting by manifest.
+353 silly tarball no local data for once@https://registry.npmjs.org/once/-/once-1.4.0.tgz. Extracting by manifest.
+354 silly tarball no local data for inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+355 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz. Extracting by manifest.
+356 silly tarball no local data for inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz. Extracting by manifest.
+357 silly tarball no local data for fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz. Extracting by manifest.
+358 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-7.2.3.tgz. Extracting by manifest.
+359 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz. Extracting by manifest.
+360 silly tarball no local data for has@https://registry.npmjs.org/has/-/has-1.0.3.tgz. Extracting by manifest.
+361 silly tarball no local data for supports-preserve-symlinks-flag@https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz. Extracting by manifest.
+362 silly tarball no local data for path-parse@https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz. Extracting by manifest.
+363 silly tarball no local data for is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz. Extracting by manifest.
+364 silly tarball no local data for is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+365 silly tarball no local data for binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz. Extracting by manifest.
+366 silly tarball no local data for to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz. Extracting by manifest.
+367 silly tarball no local data for xtend@https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz. Extracting by manifest.
+368 silly tarball no local data for fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz. Extracting by manifest.
+369 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+370 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz. Extracting by manifest.
+371 silly tarball no local data for normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz. Extracting by manifest.
+372 silly tarball no local data for is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+373 silly tarball no local data for is-binary-path@https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz. Extracting by manifest.
+374 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+375 silly tarball no local data for braces@https://registry.npmjs.org/braces/-/braces-3.0.2.tgz. Extracting by manifest.
+376 silly tarball no local data for anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.2.tgz. Extracting by manifest.
+377 silly tarball no local data for tsconfig@https://registry.npmjs.org/tsconfig/-/tsconfig-7.0.0.tgz. Extracting by manifest.
+378 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-18.7.16.tgz. Extracting by manifest.
+379 silly tarball no local data for ts-node@https://registry.npmjs.org/ts-node/-/ts-node-10.9.1.tgz. Extracting by manifest.
+380 silly tarball no local data for tree-kill@https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz. Extracting by manifest.
+381 silly tarball no local data for source-map-support@https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz. Extracting by manifest.
+382 silly tarball no local data for rimraf@https://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz. Extracting by manifest.
+383 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz. Extracting by manifest.
+384 silly tarball no local data for mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz. Extracting by manifest.
+385 silly tarball no local data for minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz. Extracting by manifest.
+386 silly tarball no local data for dynamic-dedupe@https://registry.npmjs.org/dynamic-dedupe/-/dynamic-dedupe-0.3.0.tgz. Extracting by manifest.
+387 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz. Extracting by manifest.
+388 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-4.8.2.tgz. Extracting by manifest.
+389 silly tarball no local data for ts-node-dev@https://registry.npmjs.org/ts-node-dev/-/ts-node-dev-2.0.0.tgz. Extracting by manifest.
+390 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 372ms
+391 timing auditReport:getReport Completed in 379ms
+392 silly audit report {}
+393 timing auditReport:init Completed in 0ms
+394 timing reify:audit Completed in 380ms
+395 http fetch GET 200 https://registry.npmjs.org/strip-bom/-/strip-bom-3.0.0.tgz 1389ms (cache miss)
+396 timing reifyNode:node_modules/strip-bom Completed in 1458ms
+397 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.3.tgz 1428ms (cache miss)
+398 timing reifyNode:node_modules/@tsconfig/node16 Completed in 1545ms
+399 http fetch GET 200 https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz 1472ms (cache miss)
+400 http fetch GET 200 https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz 1529ms (cache miss)
+401 timing reifyNode:node_modules/strip-json-comments Completed in 1596ms
+402 http fetch GET 200 https://registry.npmjs.org/arg/-/arg-4.1.3.tgz 1528ms (cache miss)
+403 timing reifyNode:node_modules/arg Completed in 1621ms
+404 http fetch GET 200 https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz 1570ms (cache miss)
+405 http fetch GET 200 https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 1572ms (cache miss)
+406 timing reifyNode:node_modules/is-number Completed in 1677ms
+407 http fetch GET 200 https://registry.npmjs.org/yn/-/yn-3.1.1.tgz 1598ms (cache miss)
+408 http fetch GET 200 https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz 1538ms (cache miss)
+409 http fetch GET 200 https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz 1553ms (cache miss)
+410 http fetch GET 200 https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz 1644ms (cache miss)
+411 http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 1601ms (cache miss)
+412 timing reifyNode:node_modules/wrappy Completed in 1720ms
+413 http fetch GET 200 https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 1602ms (cache miss)
+414 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz 1700ms (cache miss)
+415 timing reifyNode:node_modules/@tsconfig/node14 Completed in 1800ms
+416 timing reifyNode:node_modules/create-require Completed in 1809ms
+417 http fetch GET 200 https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz 1727ms (cache miss)
+418 http fetch GET 200 https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 1650ms (cache miss)
+419 timing reifyNode:node_modules/is-glob Completed in 1835ms
+420 timing reifyNode:node_modules/v8-compile-cache-lib Completed in 1855ms
+421 timing reifyNode:node_modules/yn Completed in 1855ms
+422 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 1732ms (cache miss)
+423 http fetch GET 200 https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz 1699ms (cache miss)
+424 http fetch GET 200 https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz 1721ms (cache miss)
+425 timing reifyNode:node_modules/path-parse Completed in 1864ms
+426 http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 1748ms (cache miss)
+427 timing reifyNode:node_modules/path-is-absolute Completed in 1868ms
+428 http fetch GET 200 https://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz 1704ms (cache miss)
+429 timing reifyNode:node_modules/fill-range Completed in 1895ms
+430 http fetch GET 200 https://registry.npmjs.org/dynamic-dedupe/-/dynamic-dedupe-0.3.0.tgz 1707ms (cache miss)
+431 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz 1804ms (cache miss)
+432 timing reifyNode:node_modules/@tsconfig/node12 Completed in 1905ms
+433 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz 1714ms (cache miss)
+434 timing reifyNode:node_modules/normalize-path Completed in 1904ms
+435 http fetch GET 200 https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz 1798ms (cache miss)
+436 timing reifyNode:node_modules/buffer-from Completed in 1910ms
+437 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz 1800ms (cache miss)
+438 timing reifyNode:node_modules/brace-expansion Completed in 1918ms
+439 http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 1816ms (cache miss)
+440 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-7.2.3.tgz 1797ms (cache miss)
+441 http fetch GET 200 https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz 1774ms (cache miss)
+442 http fetch GET 200 https://registry.npmjs.org/@types/strip-bom/-/strip-bom-3.0.0.tgz 1878ms (cache miss)
+443 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 1782ms (cache miss)
+444 timing reifyNode:node_modules/inherits Completed in 1969ms
+445 timing reifyNode:node_modules/make-error Completed in 1971ms
+446 timing reifyNode:node_modules/is-binary-path Completed in 1973ms
+447 timing reifyNode:node_modules/@types/strip-bom Completed in 1982ms
+448 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 1861ms (cache miss)
+449 timing reifyNode:node_modules/once Completed in 1983ms
+450 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.9.tgz 1882ms (cache miss)
+451 timing reifyNode:node_modules/@tsconfig/node10 Completed in 1986ms
+452 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz 1853ms (cache miss)
+453 timing reifyNode:node_modules/minimatch Completed in 1986ms
+454 http fetch GET 200 https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 1845ms (cache miss)
+455 timing reifyNode:node_modules/is-extglob Completed in 1992ms
+456 http fetch GET 200 https://registry.npmjs.org/anymatch/-/anymatch-3.1.2.tgz 1819ms (cache miss)
+457 timing reifyNode:node_modules/anymatch Completed in 1992ms
+458 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 1830ms (cache miss)
+459 timing reifyNode:node_modules/readdirp Completed in 1994ms
+460 http fetch GET 200 https://registry.npmjs.org/braces/-/braces-3.0.2.tgz 1824ms (cache miss)
+461 timing reifyNode:node_modules/rimraf Completed in 2005ms
+462 timing reifyNode:node_modules/glob-parent Completed in 2005ms
+463 http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 1877ms (cache miss)
+464 timing reifyNode:node_modules/fs.realpath Completed in 2012ms
+465 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 1900ms (cache miss)
+466 timing reifyNode:node_modules/balanced-match Completed in 2015ms
+467 http fetch GET 200 https://registry.npmjs.org/has/-/has-1.0.3.tgz 1879ms (cache miss)
+468 http fetch GET 200 https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz 1872ms (cache miss)
+469 http fetch GET 200 https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 1877ms (cache miss)
+470 timing reifyNode:node_modules/to-regex-range Completed in 2027ms
+471 http fetch GET 200 https://registry.npmjs.org/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz 1971ms (cache miss)
+472 timing reifyNode:node_modules/@types/strip-json-comments Completed in 2041ms
+473 http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 1907ms (cache miss)
+474 timing reifyNode:node_modules/inflight Completed in 2041ms
+475 timing reifyNode:node_modules/has Completed in 2041ms
+476 http fetch GET 200 https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz 1863ms (cache miss)
+477 timing reifyNode:node_modules/tree-kill Completed in 2056ms
+478 timing reifyNode:node_modules/glob Completed in 2096ms
+479 timing reifyNode:node_modules/xtend Completed in 2097ms
+480 timing reifyNode:node_modules/binary-extensions Completed in 2117ms
+481 http fetch GET 200 https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz 2043ms (cache miss)
+482 http fetch GET 200 https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.2.0.tgz 2034ms (cache miss)
+483 timing reifyNode:node_modules/acorn-walk Completed in 2127ms
+484 timing reifyNode:node_modules/concat-map Completed in 2133ms
+485 timing reifyNode:node_modules/@jridgewell/resolve-uri Completed in 2188ms
+486 http fetch GET 200 https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz 2038ms (cache miss)
+487 http fetch GET 200 https://registry.npmjs.org/tsconfig/-/tsconfig-7.0.0.tgz 2070ms (cache miss)
+488 timing reifyNode:node_modules/@jridgewell/sourcemap-codec Completed in 2252ms
+489 timing reifyNode:node_modules/source-map-support Completed in 2262ms
+490 timing reifyNode:node_modules/tsconfig Completed in 2319ms
+491 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz 2234ms (cache miss)
+492 timing reifyNode:node_modules/is-core-module Completed in 2396ms
+493 timing reifyNode:node_modules/supports-preserve-symlinks-flag Completed in 2437ms
+494 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz 2362ms (cache miss)
+495 timing reifyNode:node_modules/braces Completed in 2514ms
+496 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz 2340ms (cache miss)
+497 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz 2335ms (cache miss)
+498 timing reifyNode:node_modules/chokidar Completed in 2527ms
+499 timing reifyNode:node_modules/function-bind Completed in 2530ms
+500 timing reifyNode:node_modules/mkdirp Completed in 2542ms
+501 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 2405ms (cache miss)
+502 timing reifyNode:node_modules/picomatch Completed in 2566ms
+503 http fetch GET 200 https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz 2482ms (cache miss)
+504 timing reifyNode:node_modules/@cspotcode/source-map-support Completed in 2598ms
+505 http fetch GET 200 https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz 2543ms (cache miss)
+506 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.8.0.tgz 2543ms (cache miss)
+507 timing reifyNode:node_modules/@jridgewell/trace-mapping Completed in 2638ms
+508 timing reifyNode:node_modules/acorn Completed in 2647ms
+509 http fetch GET 200 https://registry.npmjs.org/ts-node-dev/-/ts-node-dev-2.0.0.tgz 2471ms (cache miss)
+510 timing reifyNode:node_modules/dynamic-dedupe Completed in 2675ms
+511 timing reifyNode:node_modules/ts-node-dev Completed in 2676ms
+512 timing reifyNode:node_modules/minimist Completed in 2681ms
+513 http fetch GET 200 https://registry.npmjs.org/diff/-/diff-4.0.2.tgz 2760ms (cache miss)
+514 timing reifyNode:node_modules/diff Completed in 2847ms
+515 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 2741ms (cache miss)
+516 timing reifyNode:node_modules/source-map Completed in 2850ms
+517 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-18.7.16.tgz 3227ms (cache miss)
+518 timing reifyNode:node_modules/@types/node Completed in 3406ms
+519 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz 3238ms (cache miss)
+520 timing reifyNode:node_modules/resolve Completed in 3426ms
+521 http fetch GET 200 https://registry.npmjs.org/ts-node/-/ts-node-10.9.1.tgz 3389ms (cache miss)
+522 timing reifyNode:node_modules/ts-node Completed in 3568ms
+523 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-4.8.2.tgz 6925ms (cache miss)
+524 timing reifyNode:node_modules/typescript Completed in 7120ms
+525 timing reify:unpack Completed in 7127ms
+526 timing reify:unretire Completed in 0ms
+527 timing build:queue Completed in 17ms
+528 timing build:link:node_modules/acorn Completed in 122ms
+529 timing build:link:node_modules/rimraf Completed in 120ms
+530 timing build:link:node_modules/mkdirp Completed in 122ms
+531 timing build:link:node_modules/tree-kill Completed in 121ms
+532 timing build:link:node_modules/resolve Completed in 123ms
+533 timing build:link:node_modules/ts-node-dev Completed in 121ms
+534 timing build:link:node_modules/typescript Completed in 126ms
+535 timing build:link:node_modules/ts-node Completed in 128ms
+536 timing build:link Completed in 130ms
+537 timing build:deps Completed in 149ms
+538 timing build Completed in 149ms
+539 timing reify:build Completed in 150ms
+540 timing reify:trash Completed in 2ms
+541 timing reify:save Completed in 72ms
+542 timing reify Completed in 14523ms
+543 silly ADD node_modules/strip-json-comments
+544 silly ADD node_modules/strip-bom
+545 silly ADD node_modules/@types/strip-json-comments
+546 silly ADD node_modules/@types/strip-bom
+547 silly ADD node_modules/@jridgewell/sourcemap-codec
+548 silly ADD node_modules/@jridgewell/resolve-uri
+549 silly ADD node_modules/@jridgewell/trace-mapping
+550 silly ADD node_modules/yn
+551 silly ADD node_modules/v8-compile-cache-lib
+552 silly ADD node_modules/make-error
+553 silly ADD node_modules/diff
+554 silly ADD node_modules/create-require
+555 silly ADD node_modules/arg
+556 silly ADD node_modules/acorn-walk
+557 silly ADD node_modules/acorn
+558 silly ADD node_modules/@tsconfig/node16
+559 silly ADD node_modules/@tsconfig/node14
+560 silly ADD node_modules/@tsconfig/node12
+561 silly ADD node_modules/@tsconfig/node10
+562 silly ADD node_modules/@cspotcode/source-map-support
+563 silly ADD node_modules/is-number
+564 silly ADD node_modules/source-map
+565 silly ADD node_modules/buffer-from
+566 silly ADD node_modules/concat-map
+567 silly ADD node_modules/balanced-match
+568 silly ADD node_modules/brace-expansion
+569 silly ADD node_modules/wrappy
+570 silly ADD node_modules/path-is-absolute
+571 silly ADD node_modules/once
+572 silly ADD node_modules/minimatch
+573 silly ADD node_modules/inherits
+574 silly ADD node_modules/inflight
+575 silly ADD node_modules/fs.realpath
+576 silly ADD node_modules/glob
+577 silly ADD node_modules/function-bind
+578 silly ADD node_modules/has
+579 silly ADD node_modules/supports-preserve-symlinks-flag
+580 silly ADD node_modules/path-parse
+581 silly ADD node_modules/is-core-module
+582 silly ADD node_modules/is-extglob
+583 silly ADD node_modules/binary-extensions
+584 silly ADD node_modules/to-regex-range
+585 silly ADD node_modules/xtend
+586 silly ADD node_modules/fill-range
+587 silly ADD node_modules/picomatch
+588 silly ADD node_modules/readdirp
+589 silly ADD node_modules/normalize-path
+590 silly ADD node_modules/is-glob
+591 silly ADD node_modules/is-binary-path
+592 silly ADD node_modules/glob-parent
+593 silly ADD
+594 silly ADD node_modules/braces
+595 silly ADD node_modules/anymatch
+596 silly ADD node_modules/tsconfig
+597 silly ADD node_modules/@types/node
+598 silly ADD node_modules/ts-node
+599 silly ADD node_modules/tree-kill
+600 silly ADD node_modules/source-map-support
+601 silly ADD node_modules/rimraf
+602 silly ADD node_modules/resolve
+603 silly ADD node_modules/mkdirp
+604 silly ADD node_modules/minimist
+605 silly ADD node_modules/dynamic-dedupe
+606 silly ADD node_modules/chokidar
+607 silly ADD node_modules/typescript
+608 silly ADD node_modules/ts-node-dev
+609 timing command:i Completed in 14540ms
+610 verbose exit 0
+611 timing npm Completed in 14803ms
+612 info ok

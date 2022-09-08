@@ -1,0 +1,1 @@
+{"version":3,"file":"getTest.js","sourceRoot":"","sources":["../../src/endpoints/getTest.ts"],"names":[],"mappings":";;;;;;;;;;;;AAEA,SAAsB,OAAO,CAAC,GAAW,EAAE,GAAY;;QACnD,IAAI;YACI,GAAG,CAAC,IAAI,CAAC,yBAAyB,CAAC,CAAA;SAC1C;QAAC,OAAO,KAAS,EAAE;SAEnB;IACL,CAAC;CAAA;AAND,0BAMC"}
