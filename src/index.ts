@@ -1,5 +1,5 @@
 import { app } from "./app";
-import { getTest } from "./endpoints/getTest";
+import { Create } from "./endpoints/Create";
 
 
-app.get("/teste", getTest)
+app.post("/create", Create)
