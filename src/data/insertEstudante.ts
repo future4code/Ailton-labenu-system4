@@ -1,5 +1,6 @@
 import { connection } from "./connection";
 
+
 export async function insertEstudante(id:string, name:string, email:string, data_nasc:string, turma_id:string){
     try {
         const result = await connection.raw(`
